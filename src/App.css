@@ -651,7 +651,7 @@ header.scrolled .logo {
 }
 
 .swiper-pagination {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -689,15 +689,21 @@ header.scrolled .logo {
   grid-template-columns: 85px 1fr;
 }
 
-.client img {
-  width: 100%;
+.testimonial-img {
+  width: 100px; /* Ajusta el tamaño del contenedor cuadrado según tus necesidades */
+  height: 100px; /* Ajusta el tamaño del contenedor cuadrado según tus necesidades */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Hace que el contenedor sea un círculo */
+  overflow: hidden;
 }
 
 .client-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .client-info h4 {

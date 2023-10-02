@@ -87,7 +87,7 @@ const Services: React.FC = () => {
               Contact Me
             </a>
             <a
-              href="/assets/markusCV.pdf"
+              href="src\assets\ManuelDamian CV.pdf"
               download
               className="secondary-btn"
             >
