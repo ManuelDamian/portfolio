@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
                 exceptional results. Some of the tools I use include:
               </p>
               <a
-                href="#"
+                href="mailto:manueldamian@outlook.com"
                 className="btn"
               >
                 mail me

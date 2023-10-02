@@ -658,6 +658,7 @@ header.scrolled .logo {
 }
 
 .swiper-slide {
+  margin-top: 40px;
   padding: 0 2.5rem;
 }
 
@@ -666,7 +667,7 @@ header.scrolled .logo {
 }
 
 .swiper-pagination-bullet {
-  background-color: var(--main-color-1);
+  background-color: var(--main-color-1) !important;
   opacity: 0.3;
   width: 7px;
   height: 7px;
@@ -690,12 +691,12 @@ header.scrolled .logo {
 }
 
 .testimonial-img {
-  width: 100px; /* Ajusta el tamaño del contenedor cuadrado según tus necesidades */
-  height: 100px; /* Ajusta el tamaño del contenedor cuadrado según tus necesidades */
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%; /* Hace que el contenedor sea un círculo */
+  border-radius: 50%;
   overflow: hidden;
 }
 
