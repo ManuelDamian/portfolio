@@ -79,7 +79,7 @@ const Contact: React.FC = () => {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:5173/index.html"
+            value="https://manueldamian.github.io/portfolio/index.html"
           ></input>
         </form>
       </div>
