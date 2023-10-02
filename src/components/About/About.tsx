@@ -27,10 +27,12 @@ const About = () => {
           <h3 className="sub-heading">About Me</h3>
           <h1 className="heading">Manuel Damián</h1>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-            iusto voluptates veniam facilis id quis reprehenderit! A minima ea
-            consequuntur! Earum illo dolorem quae vitae fugiat quisquam fuga
-            eius veniam.
+            I am a software engineer whose primary strengths lie in dedication
+            and hard work. Currently, I am interested in the field of web
+            development, using technologies such as JavaScript, React, and SCSS,
+            along with Git and Jira for project development. I have experience
+            in various areas of the IT industry, as well as a strong ability to
+            work collaboratively in a team.
           </p>
           <div className="cta">
             <a

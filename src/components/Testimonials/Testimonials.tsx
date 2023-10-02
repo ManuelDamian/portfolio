@@ -31,7 +31,7 @@ const Testimonials: React.FC = () => {
       <div className="container">
         <div className="section-backgroud">
           <img
-            src="src\assets\person2.png"
+            src="src\assets\mio2.png"
             className="person"
           />
           <img
@@ -47,7 +47,10 @@ const Testimonials: React.FC = () => {
           <div className="swiper-wrapper">
             <div className="swiper-slide">
               <div className="client">
-                <img src="src\assets\testi1.png" />
+                <img
+                  className="testimonial-img"
+                  src="src\assets\testi1.png"
+                />
                 <div className="client-info">
                   <h4>alex alex</h4>
                   <h5>
@@ -64,36 +67,49 @@ const Testimonials: React.FC = () => {
             </div>
             <div className="swiper-slide">
               <div className="client">
-                <img src="src\assets\testi2.png" />
+                <img
+                  className="testimonial-img"
+                  src="src\assets\edgar.jpeg"
+                />
                 <div className="client-info">
-                  <h4>alex alex</h4>
+                  <h4>Edgar Guadalupe Campos González</h4>
                   <h5>
-                    Excecutive Officer <a href="">@ABEnergy</a>
+                    .NET Developer
+                    <a href="https://www.linkedin.com/in/edgcampos/">
+                      @edgcampos
+                    </a>
                   </h5>
                 </div>
               </div>
               <q className="text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt, cumque quam sunt omnis optio quas illo possimus natus
-                commodi, officia voluptatem temporibus magnam vitae consequatur
-                impedit rem facilis iure nisi?{" "}
+                Manuel is a person committed to his professional growth. He
+                always strives to give his best to achieve the best results. We
+                have collaborated on several projects where he consistently
+                displayed a positive attitude, exceptional performance, and
+                unparalleled teamwork.{" "}
               </q>
             </div>
             <div className="swiper-slide">
               <div className="client">
-                <img src="src\assets\testi3.png" />
+                <img
+                  className="testimonial-img"
+                  src="src\assets\pam.jpg"
+                />
                 <div className="client-info">
-                  <h4>alex alex</h4>
+                  <h4>LETICIA PAMELA REYES RAMON</h4>
                   <h5>
-                    Excecutive Officer <a href="">@ABEnergy</a>
+                    DEVELOPER SENIOR IOS{" "}
+                    <a href="https://www.linkedin.com/in/pamela-r-r-144898206">
+                      @Pamela R.R
+                    </a>
                   </h5>
                 </div>
               </div>
               <q className="text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt, cumque quam sunt omnis optio quas illo possimus natus
-                commodi, officia voluptatem temporibus magnam vitae consequatur
-                impedit rem facilis iure nisi?{" "}
+                We worked together for about a year on a mobile project for a
+                banking company, during which Damian excelled in excellent
+                teamwork, problem-solving, and great attention to detail. He
+                truly has no fear of learning.{" "}
               </q>
             </div>
           </div>

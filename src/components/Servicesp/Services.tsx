@@ -50,15 +50,19 @@ const Services: React.FC = () => {
           <h3 className="sub-heading">My Services</h3>
           <h1 className="heading">Things I may do for my clients</h1>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            blanditiis laborum illo dignissimos libero odio ut tenetur veritatis
-            minima, in cum excepturi iste aspernatur maxime ab tempore non. Eum,
-            vero.
+            My approach to client service revolves around your needs and
+            objectives. I customize solutions to fit your unique requirements.
+            Open and transparent communication is a priority to ensure you're
+            always informed. Quality is never compromised, and I'm committed to
+            meeting deadlines. Continuous learning and staying up-to-date with
+            industry trends allow me to provide the best possible support. Your
+            goals are my goals, and I'm here to serve your interests to the
+            fullest
           </p>
           <div className="milestones">
             <div className="ml">
               <h2 className="number">
-                <span data-target="10">0</span>+
+                <span data-target="7">0</span>+
               </h2>
               <h5>Years</h5>
             </div>
@@ -94,74 +98,54 @@ const Services: React.FC = () => {
         <div className="services-grid">
           <div className="srv-card">
             <div className="card-desc">
-              <h3>Brand Identity</h3>
+              <h3>Teamwork</h3>
               <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Mollitia sequi error esse, nesciunt ab accusamus nostrum ad
-                porro cumque sapiente eaque omnis doloremque earum delectus.
-                Aliquam error corrupti et fuga.
+                I've come to appreciate how a cohesive team, working in harmony,
+                can overcome challenges and deliver exceptional results. Through
+                various experiences, I've witnessed the power of collaboration,
+                where individuals bring their unique strengths to the table,
+                fostering innovation and driving projects toward success.
               </p>
             </div>
-            <a
-              href=""
-              className="secondary-btn"
-            >
-              Explore more
-            </a>
           </div>
 
           <div className="srv-card">
             <div className="card-desc">
-              <h3>Brand Identity</h3>
+              <h3>Dedication</h3>
               <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Mollitia sequi error esse, nesciunt ab accusamus nostrum ad
-                porro cumque sapiente eaque omnis doloremque earum delectus.
-                Aliquam error corrupti et fuga.
+                Dedication is my driving force. When I commit to a project, I
+                give it my all. I firmly believe that going the extra mile and
+                being devoted to a task is what sets the foundation for success.
+                I'm the type of person who won't stop until I've achieved the
+                best possible outcome.
               </p>
             </div>
-            <a
-              href=""
-              className="secondary-btn"
-            >
-              Explore more
-            </a>
           </div>
 
           <div className="srv-card">
             <div className="card-desc">
-              <h3>Product Desing</h3>
+              <h3>Enthusiasm</h3>
               <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Mollitia sequi error esse, nesciunt ab accusamus nostrum ad
-                porro cumque sapiente eaque omnis doloremque earum delectus.
-                Aliquam error corrupti et fuga.
+                I bring a genuine enthusiasm to everything I do. I believe that
+                a positive attitude and a genuine passion for my work can make a
+                significant difference. This enthusiasm drives me to tackle
+                challenges with a smile and to approach each project with energy
+                and dedication
               </p>
             </div>
-            <a
-              href=""
-              className="secondary-btn"
-            >
-              Explore more
-            </a>
           </div>
 
           <div className="srv-card">
             <div className="card-desc">
-              <h3>App Desing</h3>
+              <h3>Active Participation</h3>
               <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Mollitia sequi error esse, nesciunt ab accusamus nostrum ad
-                porro cumque sapiente eaque omnis doloremque earum delectus.
-                Aliquam error corrupti et fuga.
+                I actively engage in every project and task I take on. I firmly
+                believe that being fully involved is key to achieving success.
+                Whether it's collaborating with team members, contributing
+                ideas, or taking the lead when needed, I consistently
+                participate at a high level.
               </p>
             </div>
-            <a
-              href=""
-              className="secondary-btn"
-            >
-              Explore more
-            </a>
           </div>
           <img
             src="src\assets\square1.png"

@@ -613,8 +613,8 @@ header.scrolled .logo {
   position: absolute;
   width: 210px;
   height: 210px;
-  top: 28%;
-  left: 32%;
+  top: 33%;
+  left: 33%;
   border: 15px solid var(--main-color-1);
   z-index: -1;
   opacity: 0.08;

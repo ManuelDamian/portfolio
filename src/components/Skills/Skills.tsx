@@ -11,10 +11,15 @@ const Skills: React.FC = () => {
             <h1 className="heading">Let me help you</h1>
             <div className="box-desc">
               <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptas quis ipsam deserunt fugiat aliquid! Facilis, quibusdam.
-                Architecto est dolorem ex, tempore impedit iusto facere iure
-                consequuntur tenetur ipsum illo ullam.
+                "Throughout my professional journey, I have had the privilege of
+                collaborating in diverse teams where I've learned the importance
+                of effective teamwork. I have used a wide variety of tools over
+                the years, from cutting-edge development technologies to
+                powerful project management applications. My commitment is to
+                bring not only my experience but also my passion, dedication,
+                and skills to every project. I am convinced that by working
+                together and leveraging our individual strengths, we can achieve
+                exceptional results. Some of the tools I use include:
               </p>
               <a
                 href="#"
