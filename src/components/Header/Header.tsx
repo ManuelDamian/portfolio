@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 // Usa una función de flecha para definir el componente
 const Header: React.FC = () => {
