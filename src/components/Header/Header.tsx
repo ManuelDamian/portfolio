@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-// Usa una función de flecha para definir el componente
+import headerItemsArray from "./HeaderArray";
+
 const Header: React.FC = () => {
   const [sticky, setSticky] = useState(false);
 
@@ -30,10 +31,7 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header
-      // ref={headerRef}
-      className={`${sticky ? "scrolled" : ""}`}
-    >
+    <header className={`${sticky ? "scrolled" : ""}`}>
       <nav className="container">
         <a
           className="logo"
@@ -43,54 +41,16 @@ const Header: React.FC = () => {
         </a>
         <div className="links">
           <ul>
-            <li>
-              <a
-                href="#"
-                className="nav-link"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#about"
-                className="nav-link"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#skills"
-                className="nav-link"
-              >
-                Skills
-              </a>
-            </li>
-            <li>
-              <a
-                href="#services"
-                className="nav-link"
-              >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#referals"
-                className="nav-link"
-              >
-                Referals
-              </a>
-            </li>
-            <li>
-              <a
-                href="#contact"
-                className="nav-link"
-              >
-                Contact
-              </a>
-            </li>
+            {headerItemsArray.map((items) => (
+              <li>
+                <a
+                  href={items.link}
+                  className="nav-link"
+                >
+                  {items.name}
+                </a>
+              </li>
+            ))}
           </ul>
           <i
             className="uil uil-moonset toggle-btn"

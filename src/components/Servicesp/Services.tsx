@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import servicesItemsArray from "./ServicesArray";
 
 const Services: React.FC = () => {
   useEffect(() => {
@@ -96,57 +97,14 @@ const Services: React.FC = () => {
           </div>
         </div>
         <div className="services-grid">
-          <div className="srv-card">
-            <div className="card-desc">
-              <h3>Teamwork</h3>
-              <p className="text">
-                I've come to appreciate how a cohesive team, working in harmony,
-                can overcome challenges and deliver exceptional results. Through
-                various experiences, I've witnessed the power of collaboration,
-                where individuals bring their unique strengths to the table,
-                fostering innovation and driving projects toward success.
-              </p>
+          {servicesItemsArray.map((items) => (
+            <div className="srv-card">
+              <div className="card-desc">
+                <h3>{items.title}</h3>
+                <p className="text">{items.text}</p>
+              </div>
             </div>
-          </div>
-
-          <div className="srv-card">
-            <div className="card-desc">
-              <h3>Dedication</h3>
-              <p className="text">
-                Dedication is my driving force. When I commit to a project, I
-                give it my all. I firmly believe that going the extra mile and
-                being devoted to a task is what sets the foundation for success.
-                I'm the type of person who won't stop until I've achieved the
-                best possible outcome.
-              </p>
-            </div>
-          </div>
-
-          <div className="srv-card">
-            <div className="card-desc">
-              <h3>Enthusiasm</h3>
-              <p className="text">
-                I bring a genuine enthusiasm to everything I do. I believe that
-                a positive attitude and a genuine passion for my work can make a
-                significant difference. This enthusiasm drives me to tackle
-                challenges with a smile and to approach each project with energy
-                and dedication
-              </p>
-            </div>
-          </div>
-
-          <div className="srv-card">
-            <div className="card-desc">
-              <h3>Active Participation</h3>
-              <p className="text">
-                I actively engage in every project and task I take on. I firmly
-                believe that being fully involved is key to achieving success.
-                Whether it's collaborating with team members, contributing
-                ideas, or taking the lead when needed, I consistently
-                participate at a high level.
-              </p>
-            </div>
-          </div>
+          ))}
           <img
             src="src\assets\square1.png"
             alt=""
