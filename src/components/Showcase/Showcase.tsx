@@ -27,7 +27,7 @@ const Showcase: React.FC = () => {
               Contact Me
             </a>
             <a
-              href="src\assets\ManuelDamian CV.pdf"
+              href="./src/assets/CV_Manuel Damian_EN.pdf"
               download
               className="secondary-btn"
             >
@@ -37,7 +37,7 @@ const Showcase: React.FC = () => {
         </div>
         <div className="showcase-image">
           <img
-            src="src\assets\person3.png"
+            src="./src/assets/person3.png"
             className="person"
             alt="Manuel Damian"
           />

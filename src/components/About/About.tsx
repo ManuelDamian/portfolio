@@ -7,19 +7,19 @@ const About = () => {
       <div className="container">
         <div className="about-grid">
           <div className="about-card">
-            <img src="src\assets\react.svg" />
+            <img src="./src/assets/react.svg" />
             <h3>Front End</h3>
           </div>
           <div className="about-card">
-            <img src="src\assets\nodejs.svg" />
+            <img src="./src/assets/nodejs.svg" />
             <h3>Hybrid Applications</h3>
           </div>
           <div className="about-card">
-            <img src="src\assets\git.svg" />
+            <img src="./src/assets/git.svg" />
             <h3>Version Control</h3>
           </div>
           <div className="about-card">
-            <img src="src\assets\project-management.svg" />
+            <img src="./src/assets/project-management.svg" />
             <h3>Project Management</h3>
           </div>
         </div>
@@ -42,7 +42,7 @@ const About = () => {
               Contact Me
             </a>
             <a
-              href="src\assets\ManuelDamian CV.pdf"
+              href="./src/assets/CV_Manuel Damian_EN.pdf"
               download
               className="secondary-btn"
             >
