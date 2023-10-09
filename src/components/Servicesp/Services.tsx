@@ -88,7 +88,7 @@ const Services: React.FC = () => {
               Contact Me
             </a>
             <a
-              href="./src/assets/CV_Manuel Damian_EN.pdf"
+              href="public/assets/CV_Manuel Damian_EN.pdf"
               download
               className="secondary-btn"
             >
@@ -106,7 +106,7 @@ const Services: React.FC = () => {
             </div>
           ))}
           <img
-            src="./src/assets/square1.png"
+            src="public/assets/square1.png"
             alt=""
             className="shape square"
           />
