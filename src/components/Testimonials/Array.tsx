@@ -10,13 +10,13 @@ const testimonialsArray = [
     perfil: "Pamela R.R",
   },
   {
-    nombre: "alex alex",
-    puesto: "Excecutive Officer",
-    url: "",
+    nombre: "Jesús González",
+    puesto: "Associate QA Developer",
+    url: "https://www.linkedin.com/in/jesugq/",
     texto:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint expedita accusantium accusamus fugit, soluta aut perspiciatis dignissimos at dolore assumenda rem nisi, voluptatem saepe ratione voluptas in. Quisquam, deleniti rerum.",
-    imagen: "src/assets/testi1.png",
-    perfil: "ABEnergy",
+      "I enjoyed my time working in web development with Damián, he is keenly aware of his teammate's needs, and has proven to be a capable leader and developer, representing our team during all-team technical discussions. He truly fits the meaning of 'voice of reason.",
+    imagen: "src/assets/jesus.jpeg",
+    perfil: "jesugq ",
   },
   {
     nombre: "Edgar Guadalupe Campos González",

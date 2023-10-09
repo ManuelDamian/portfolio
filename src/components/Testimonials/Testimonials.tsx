@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import testimonialsArray from "./Array";
-import imgArray from "./ImgArray";
+import imgArray from "./imgArray";
 
 const Testimonials: React.FC = () => {
   return (
@@ -18,10 +18,11 @@ const Testimonials: React.FC = () => {
     >
       <div className="container">
         <div className="section-backgroud">
-          {imgArray.map((images) => (
+          {imgArray.map((images: { imagen: string; name: string }) => (
             <img
               src={images.imagen}
               className={images.name}
+              key={images.name}
             />
           ))}
         </div>
