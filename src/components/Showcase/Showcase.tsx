@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
+import assets from "../Assets/Assets";
 
 const Showcase: React.FC = () => {
   useEffect(() => {
@@ -37,7 +38,7 @@ const Showcase: React.FC = () => {
         </div>
         <div className="showcase-image">
           <img
-            src="public/assets/person3.png"
+            src={assets.fotoprincipal}
             className="person"
             alt="Manuel Damian"
           />
