@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import testimonialsArray from "./Array";
-import imgArray from "./ImgArray";
+import imgArray from "./imgArray";
 
 const Testimonials: React.FC = () => {
   return (
