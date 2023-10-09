@@ -8,12 +8,12 @@ const Contact: React.FC = () => {
     >
       <div className="container">
         <img
-          src="./src/assets/triangle.png"
+          src="public/assets/triangle.png"
           alt=""
           className="shape triangle"
         />
         <img
-          src="./src/assets/square2.png"
+          src="public/assets/square2.png"
           alt=""
           className="shape square"
         />

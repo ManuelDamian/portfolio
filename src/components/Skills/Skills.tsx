@@ -88,11 +88,11 @@ const Skills: React.FC = () => {
             </div>
           </div>
           <img
-            src="./src/assets/dots.png"
+            src="public/assets/dots.png"
             className="dots"
           />
           <img
-            src="./src/assets/square1.png"
+            src="public/assets/square1.png"
             className="shape square"
           />
         </div>
