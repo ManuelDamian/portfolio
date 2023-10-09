@@ -1,3 +1,5 @@
+import assets from "../Assets/Assets";
+
 const About = () => {
   return (
     <section
@@ -7,19 +9,19 @@ const About = () => {
       <div className="container">
         <div className="about-grid">
           <div className="about-card">
-            <img src="public//assets/react.svg" />
+            <img src={assets.react} />
             <h3>Front End</h3>
           </div>
           <div className="about-card">
-            <img src="public//assets/nodejs.svg" />
+            <img src={assets.nodejs} />
             <h3>Hybrid Applications</h3>
           </div>
           <div className="about-card">
-            <img src="public/assets/git.svg" />
+            <img src={assets.git} />
             <h3>Version Control</h3>
           </div>
           <div className="about-card">
-            <img src="public/assets/project-management.svg" />
+            <img src={assets.project_management} />
             <h3>Project Management</h3>
           </div>
         </div>
@@ -42,7 +44,7 @@ const About = () => {
               Contact Me
             </a>
             <a
-              href="public/assets/CV_Manuel Damian_EN.pdf"
+              href={assets.resume}
               download
               className="secondary-btn"
             >

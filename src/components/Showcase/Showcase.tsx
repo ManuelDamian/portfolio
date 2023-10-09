@@ -28,7 +28,7 @@ const Showcase: React.FC = () => {
               Contact Me
             </a>
             <a
-              href="public/src/assets/CV_Manuel Damian_EN.pdf"
+              href={assets.resume}
               download
               className="secondary-btn"
             >

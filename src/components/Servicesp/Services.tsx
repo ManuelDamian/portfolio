@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import servicesItemsArray from "./ServicesArray";
+import assets from "../Assets/Assets";
 
 const Services: React.FC = () => {
   useEffect(() => {
@@ -88,7 +89,7 @@ const Services: React.FC = () => {
               Contact Me
             </a>
             <a
-              href="public/assets/CV_Manuel Damian_EN.pdf"
+              href={assets.resume}
               download
               className="secondary-btn"
             >
@@ -106,7 +107,7 @@ const Services: React.FC = () => {
             </div>
           ))}
           <img
-            src="public/assets/square1.png"
+            src={assets.square1}
             alt=""
             className="shape square"
           />
