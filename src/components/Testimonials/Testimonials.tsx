@@ -18,10 +18,11 @@ const Testimonials: React.FC = () => {
     >
       <div className="container">
         <div className="section-backgroud">
-          {imgArray.map((images) => (
+          {imgArray.map((images: { imagen: string; name: string }) => (
             <img
               src={images.imagen}
               className={images.name}
+              key={images.name}
             />
           ))}
         </div>
