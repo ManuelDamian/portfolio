@@ -632,7 +632,7 @@ header.scrolled .logo {
 
 /* --------------- Testimonials Section Styling --------------- */
 .testimonials {
-  padding: var(--section-padding) 0 calc(var(--section-padding)+ 120px);
+  padding: var(--section-padding) 0 calc(var(--section-padding) + 120px);
 }
 
 .testimonials .container {
