@@ -1,3 +1,5 @@
+import assets from "../Assets/Assets";
+
 const Skills: React.FC = () => {
   return (
     <section
@@ -88,11 +90,13 @@ const Skills: React.FC = () => {
             </div>
           </div>
           <img
-            src="public/assets/dots.png"
+            src={assets.dots}
+            alt=""
             className="dots"
           />
           <img
-            src="public/assets/square1.png"
+            src={assets.square1}
+            alt=""
             className="shape square"
           />
         </div>
