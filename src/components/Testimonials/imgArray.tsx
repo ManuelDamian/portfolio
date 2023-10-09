@@ -1,15 +1,17 @@
+import assets from "../Assets/Assets";
+
 // testimonials-imgs.js
 const imgArray = [
   {
-    imagen: "public/assets/mio2.png",
+    imagen: assets.mio2,
     name: "person",
   },
   {
-    imagen: "public/assets/circle2.png",
+    imagen: assets.circle1,
     name: "circle",
   },
   {
-    imagen: "public/assets/square1.png",
+    imagen: assets.square1,
     name: "square",
   },
 ];

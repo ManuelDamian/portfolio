@@ -1,3 +1,4 @@
+import assets from "../Assets/Assets";
 // testimoniosData.js
 const testimonialsArray = [
   {
@@ -6,7 +7,7 @@ const testimonialsArray = [
     url: "https://www.linkedin.com/in/pamela-r-r-144898206",
     texto:
       " We worked together for about a year on a mobile project for a banking company, during which Damian excelled in excellent teamwork, problem-solving, and great attention to detail. He truly has no fear of learning. ",
-    imagen: "public/assets/pam.jpg",
+    imagen: assets.pam,
     perfil: "Pamela R.R",
   },
   {
@@ -15,7 +16,7 @@ const testimonialsArray = [
     url: "https://www.linkedin.com/in/jesugq/",
     texto:
       "I enjoyed my time working in web development with Damián, he is keenly aware of his teammate's needs, and has proven to be a capable leader and developer, representing our team during all-team technical discussions. He truly fits the meaning of 'voice of reason.",
-    imagen: "public/assets/jesus.jpeg",
+    imagen: assets.jesus,
     perfil: "jesugq ",
   },
   {
@@ -24,7 +25,7 @@ const testimonialsArray = [
     url: "https://www.linkedin.com/in/edgcampos/",
     texto:
       " Manuel is a person committed to his professional growth. He always strives to give his best to achieve the best results. We have collaborated on several projects where he consistently displayed a positive attitude, exceptional performance, and unparalleled teamwork. ",
-    imagen: "public/assets/edgar.jpeg",
+    imagen: assets.edgar,
     perfil: "edgcampos",
   },
 ];

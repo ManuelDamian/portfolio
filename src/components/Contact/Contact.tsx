@@ -1,4 +1,5 @@
 import React from "react";
+import assets from "../Assets/Assets";
 
 const Contact: React.FC = () => {
   return (
@@ -8,12 +9,12 @@ const Contact: React.FC = () => {
     >
       <div className="container">
         <img
-          src="public/assets/triangle.png"
+          src={assets.triangle}
           alt=""
           className="shape triangle"
         />
         <img
-          src="public/assets/square2.png"
+          src={assets.square2}
           alt=""
           className="shape square"
         />
