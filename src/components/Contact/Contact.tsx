@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
           action="https://formsubmit.co/manueldamian@outlook.com"
           method="POST"
         >
-          <h3>Se me a message</h3>
+          <h3>Send me a message</h3>
           <input
             type="text"
             className="form-input"
