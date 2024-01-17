@@ -657,6 +657,7 @@ header.scrolled .logo {
 @media screen and (max-width: 900px) {
   .services{
     margin-top: 400px;
+    margin-bottom: 200px;
   }
 
   .services .container {
@@ -770,7 +771,7 @@ grid-template-columns: repeat(2, 1fr);
 
 @media screen and (max-width: 400px) {
   .testimonials .container{
-    margin-top: 900px;
+    margin-top: 400px;
     grid-template-columns: 1fr;
     grid-template-areas:
         "section-backgroud"
