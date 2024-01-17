@@ -11,27 +11,17 @@ const Showcase: React.FC = () => {
   }, []);
 
   return (
-    <section
-      id="home"
-      className="showcase-area"
-    >
+    <section id="home" className="showcase-area">
       <div className="container">
         <div className="showcase-info">
           <h3 className="sub-heading">Developer</h3>
           <h1 className="heading">Manuel Damián</h1>
           <p className="text">Hello guys👋!. Let's Work together!.</p>
           <div className="cta">
-            <a
-              href="mailto:manueldamian@outlook.com"
-              className="btn"
-            >
+            <a href="mailto:manueldamian@outlook.com" className="btn">
               Contact Me
             </a>
-            <a
-              href={assets.resume}
-              download
-              className="secondary-btn"
-            >
+            <a href={assets.resume} download className="secondary-btn">
               Download CV
             </a>
           </div>

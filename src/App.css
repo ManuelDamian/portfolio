@@ -306,6 +306,12 @@ header.scrolled .logo {
   align-items: center;
 }
 
+@media screen and (max-width: 900px) {
+  .showcase-area .container {
+    grid-template-columns: repeat(1, 2fr);
+  }
+}
+
 .showcase-area .sub-heading {
   margin-bottom: 0.7rem;
 }
@@ -336,18 +342,95 @@ header.scrolled .logo {
   width: 100%;
   align-items: center;
   bottom: 0;
-  left: 50%;
+  left: 49.9%;
   transform: translateX(-50%);
   border-radius: 80px;
 }
+
+
+@media screen and (max-width:1000px) {
+
+  .showcase-image {
+      width: 99.9%;
+  }
+
+  .showcase-image .person {
+    border-radius: 80px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .showcase-image {
+    width: 70%;
+    margin-top: 300px;
+
+  }
+
+  .showcase-image .person {
+    position: relative;
+    border-radius: 80px;
+    transform: translatex(0%);
+      left: 0%;
+      transform: translateY(1%);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .showcase-image .person {
+      position: relative;
+      border-radius: 80px;
+      transform: translatex(0%);
+      left: 0%;
+      transform: translateY(3%);
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .showcase-image {
+    margin-top: 100px;
+    border-radius: 0 0 50px 50px;
+
+  }
+
+  .showcase-image .person {
+    position: relative;
+    border-radius: 50px; 
+    transform: translatex(0%);
+    left: 0%;
+    transform: translateY(41%);
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .showcase-area{
+    margin-top: 150px;
+  }
+}
+
 
 /* --------------- About Section Styling --------------- */
 
 .about .container {
   top: 20%;
   display: grid;
-  grid-template-columns: 1.05fr 1fr !important;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .about .container {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+      "about-info"
+      "about-grid";
+  }
+.about .about-grid {
+  margin-top: 30px;
+  order: 2;
+}
+
 }
 
 .about .text {
@@ -439,6 +522,33 @@ header.scrolled .logo {
 
 .skills .container {
   top: 20%;
+}
+
+@media screen and (max-width: 900px) {
+  .skills{
+    overflow: visible;
+    margin-top: 300px;
+    width: 470px;
+  }
+  
+  .skills .container {
+    
+  }
+  .skills-box {
+    padding: 2rem 2rem;
+  }
+
+  .skills-box .box-desc{
+    grid-template-columns: 1fr;
+  }
+    .skills-wrap {
+      grid-template-columns: repeat(2, 150px) !important;
+    }
+  
+    .skills .square {
+      left: 95% !important;
+      top: 80% !important;
+    }
 }
 
 .skills-box {
@@ -539,9 +649,19 @@ header.scrolled .logo {
 .services .container {
   top: 10%;
   display: grid;
-  grid-template-columns: 1fr 1.3fr;
+  grid-template-columns: repeat(2, 1fr);;
   column-gap: 5rem;
   align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .services{
+    margin-top: 400px;
+  }
+
+  .services .container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .milestones {
@@ -638,8 +758,41 @@ header.scrolled .logo {
 .testimonials .container {
   top: 25%;
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+grid-template-columns: repeat(2, 1fr);
   align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .testimonials {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .testimonials .container{
+    margin-top: 900px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "section-backgroud"
+        "swiper";
+        
+  }
+
+  .testimonials .swiper{
+    order: 2;
+  }
+  
+  .container .section-backgroud{
+    height: 900px;
+  }
+  
+    .swiper {
+      margin-top: 10px;
+      max-width: 459px !important;
+      height: 450px !important ;
+    }
+  
+
 }
 
 .swiper {
@@ -738,7 +891,7 @@ header.scrolled .logo {
 }
 
 .section-backgroud {
-  position: absolute !important;
+  position: absolute;
   width: 100vw;
   max-width: 75rem;
   height: calc(100% + 120px);
@@ -784,6 +937,35 @@ header.scrolled .logo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 4rem;
+}
+
+@media screen and (max-width: 900px) {
+  .contact .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact  {
+    margin-top: 300px;
+   margin-bottom: 500px;
+   
+  }
+
+  .contact-form{
+    margin-top: 30px;
+  }
+    .contact .square{
+      width: 100px !important;
+      left: 140px !important;
+      bottom: 23% !important;
+    }
+
+        .contact .triangle{
+          left: 55% !important;
+          top: 11% !important; 
+          transform: translate(50%, -50%);
+        }
 }
 
 .mail {
@@ -894,6 +1076,12 @@ footer .container {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    margin-top: 400px;
+  }
 }
 
 footer .social-media {
