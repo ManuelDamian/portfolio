@@ -3,21 +3,10 @@ import assets from "../Assets/Assets";
 
 const Contact: React.FC = () => {
   return (
-    <section
-      id="contact"
-      className="contact section"
-    >
+    <section id="contact" className="contact section">
       <div className="container">
-        <img
-          src={assets.triangle}
-          alt=""
-          className="shape triangle"
-        />
-        <img
-          src={assets.square2}
-          alt=""
-          className="shape square"
-        />
+        <img src={assets.triangle} alt="" className="shape triangle" />
+        <img src={assets.square2} alt="" className="shape square" />
         <div className="contact-info">
           <h3 className="sub-heading">Contact me</h3>
           <h1 className="heading">Les's Work together!</h1>
@@ -26,10 +15,7 @@ const Contact: React.FC = () => {
             together. If I've made a positive impression, please feel free to
             send me a message.
           </p>
-          <a
-            href="mailto:manueldamian@outlook.com"
-            className="mail"
-          >
+          <a href="mailto:manueldamian@outlook.com" className="mail">
             manueldamian@outlook.com <i className="uil uil-arrow-to-right"></i>
           </a>
         </div>
@@ -66,17 +52,9 @@ const Contact: React.FC = () => {
             name="message"
             required
           ></textarea>
-          <input
-            type="submit"
-            value="Send"
-            className="btn"
-          />
+          <input type="submit" value="Send" className="btn" />
 
-          <input
-            type="hidden"
-            name="_captcha"
-            value="false"
-          ></input>
+          <input type="hidden" name="_captcha" value="false"></input>
           <input
             type="hidden"
             name="_next"
