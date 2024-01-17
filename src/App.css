@@ -938,6 +938,7 @@ grid-template-columns: repeat(2, 1fr);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 4rem;
+  
 }
 
 @media screen and (max-width: 900px) {
@@ -950,6 +951,7 @@ grid-template-columns: repeat(2, 1fr);
   .contact  {
     margin-top: 300px;
    margin-bottom: 500px;
+   height: 100vh;
    
   }
 
